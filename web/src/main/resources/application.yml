@@ -1,0 +1,11 @@
+server:
+  port: 8888
+logging:
+  level:
+    com.havey.mapper.dao: debug
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/authority?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    type: com.alibaba.druid.pool.DruidDataSource
